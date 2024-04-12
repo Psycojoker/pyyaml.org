@@ -28,7 +28,11 @@ sub update {
 
     my $html = <<"EOM";
 <html>
-<head><title>Index of /$dir/</title></head>
+<head><title>Index of /$dir/</title>
+<style type="text/css">
+body { font-family: sans; line-height: 1.5; color: #111 }
+</style>
+</head>
 <body bgcolor="white">
 <h1>Index of /$dir/</h1><hr>
 <table>
